@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\src\git\Radical-QA-Unshackler\src\RadicalQA\RadicalQA.nunit" total="5" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-04-17" time="16:20:50">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5448" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="Y-MDEVINE-W7" user="y-mdevine" user-domain="HQ" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\src\git\Radical-QA-Unshackler\src\RadicalQA\RadicalQA.nunit" executed="True" result="Failure" success="False" time="39.474" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Tests\bin\Debug\Radical.Tests.dll" executed="True" result="Failure" success="False" time="39.462" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Radical" executed="True" result="Failure" success="False" time="39.461" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="39.461" asserts="0">
+                <results>
+                  <test-suite type="TestSuite" name="GoogleTests" executed="True" result="Failure" success="False" time="22.628" asserts="0">
+                    <results>
+                      <test-suite type="TestSuite" name="given chrome" executed="True" result="Success" success="True" time="9.993" asserts="0">
+                        <properties>
+                          <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given chrome" />
+                        </properties>
+                        <results>
+                          <test-suite type="TestSuite" name="given a non null driver" executed="True" result="Success" success="True" time="9.992" asserts="0">
+                            <properties>
+                              <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given chrome,&#xA;given a non null driver" />
+                            </properties>
+                            <results>
+                              <test-suite type="TestSuite" name="when we goto google.com" executed="True" result="Success" success="True" time="9.991" asserts="0">
+                                <properties>
+                                  <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given chrome,&#xA;given a non null driver,&#xA;when we goto google.com" />
+                                </properties>
+                                <results>
+                                  <test-case name="Radical.Tests.GoogleTests, given chrome, given a non null driver, when we goto google.com, then we can get the user agent" executed="True" result="Success" success="True" time="9.974" asserts="0">
+                                    <properties>
+                                      <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given chrome,&#xA;given a non null driver,&#xA;when we goto google.com,&#xA;then we can get the user agent" />
+                                    </properties>
+                                  </test-case>
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestSuite" name="given firefox" executed="True" result="Success" success="True" time="12.611" asserts="0">
+                        <properties>
+                          <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given firefox" />
+                        </properties>
+                        <results>
+                          <test-suite type="TestSuite" name="given a non null driver" executed="True" result="Success" success="True" time="12.611" asserts="0">
+                            <properties>
+                              <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given firefox,&#xA;given a non null driver" />
+                            </properties>
+                            <results>
+                              <test-suite type="TestSuite" name="when we goto google.com" executed="True" result="Success" success="True" time="12.610" asserts="0">
+                                <properties>
+                                  <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given firefox,&#xA;given a non null driver,&#xA;when we goto google.com" />
+                                </properties>
+                                <results>
+                                  <test-case name="Radical.Tests.GoogleTests, given firefox, given a non null driver, when we goto google.com, then we can get the user agent" executed="True" result="Success" success="True" time="12.610" asserts="0">
+                                    <properties>
+                                      <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given firefox,&#xA;given a non null driver,&#xA;when we goto google.com,&#xA;then we can get the user agent" />
+                                    </properties>
+                                  </test-case>
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-case name="Radical.Tests.GoogleTests, given internet explorer" executed="True" result="Failure" success="False" time="0.001" asserts="0">
+                        <properties>
+                          <property name="MultilineName" value="Radical.Tests.GoogleTests,&#xA;given internet explorer" />
+                        </properties>
+                        <failure>
+                          <message><![CDATA[Unexpected error launching Internet Explorer. Protected Mode must be set to the same value (enabled or disabled) for all zones. (NoSuchDriver)]]></message>
+                          <stack-trace><![CDATA[at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+at OpenQA.Selenium.IE.InternetExplorerDriver..ctor(Int32 port, InternetExplorerOptions options, TimeSpan commandTimeout)
+at Radical.Infrastructure.WebDriverFactory.CreateLocalDriver(TargetBrowser browserType) in C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Infrastructure\WebDriverFactory.cs:line 92
+at Radical.Infrastructure.WebDriverFactory.CreateDriver() in C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Infrastructure\WebDriverFactory.cs:line 75
+at Radical.Infrastructure.WebDriverFactory.CreateWebDriver() in C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Infrastructure\WebDriverFactory.cs:line 31
+at Radical.Tests.SpecificationForAllBrowsers.CreateWebDriver(String browserType) in C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Tests\SpecificationForAllBrowsers.cs:line 40
+at Radical.Tests.SpecificationForAllBrowsers.<>c__DisplayClass2.<Specify>b__0() in C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Tests\SpecificationForAllBrowsers.cs:line 24
+at NJasmine.Core.NJasmineTestSuite.BuildNJasmineTestSuite(AllSuitesBuildContext buildContext, GlobalSetupManager globalSetup, Action action, Boolean isOuterScopeOfSpecification) in c:\src\NJasmine\NJasmine\Core\NJasmineTestSuite.cs:line 60
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="WebDriverFactoryTest" executed="True" result="Success" success="True" time="16.737" asserts="6">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="CreateWebDriver_local" executed="True" result="Success" success="True" time="16.724" asserts="0">
+                        <results>
+                          <test-case name="Radical.Tests.WebDriverFactoryTest.CreateWebDriver_local(&quot;chrome&quot;)" executed="True" result="Success" success="True" time="8.234" asserts="1" />
+                          <test-case name="Radical.Tests.WebDriverFactoryTest.CreateWebDriver_local(&quot;firefox&quot;)" executed="True" result="Success" success="True" time="8.481" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

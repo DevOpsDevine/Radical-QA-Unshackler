@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="A4206E66-04F6-4985-B3A0-E4F2387FF556" ModuleId="Radical.Tests" />
+  <Module PersistentId="83E90751-6211-447A-B954-F8180551DDE3" ModuleId="Radical.Infrastructure" />
+</Modules>

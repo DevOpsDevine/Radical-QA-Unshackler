@@ -1,0 +1,8 @@
+bin/
+obj/
+JbPdbInfo/
+*ScriptCache/
+*.bin
+*.dat
+.crc
+.version

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\src\git\Radical-QA-Unshackler\src\RadicalQA\RadicalQA.nunit</TopNode>
+  <SelectedNode>[0-1000]C:\src\git\Radical-QA-Unshackler\src\RadicalQA\RadicalQA.nunit</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\src\git\Radical-QA-Unshackler\src\RadicalQA\RadicalQA.nunit" Expanded="true" />
+    <Node UniqueName="[0-1005]C:\src\git\Radical-QA-Unshackler\src\RadicalQA\Radical.Tests\bin\Debug\Radical.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]Radical" Expanded="true" />
+    <Node UniqueName="[0-1007]Radical.Tests" Expanded="true" />
+    <Node UniqueName="[0-1001]Radical.Tests.WebDriverFactoryTest" Expanded="true" />
+    <Node UniqueName="[0-1002]Radical.Tests.WebDriverFactoryTest.CreateWebDriver_local" Expanded="true" />
+  </Nodes>
+</VisualState>
